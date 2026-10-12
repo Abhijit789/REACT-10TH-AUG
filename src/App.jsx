@@ -8,6 +8,11 @@ import Parent from "./props/Parent";
 import ObjectAsState from "./state/ObjectAsState";
 import StateManagement from "./state/StateManagement";
 import FormBindingForGroup from "./form binding/FormBindingForGroup";
+import List from "./form binding/List";
+import ComponentLifeCycle1 from "./compoonent life cycle/ComponentLifeCycle1";
+import ComponentLifeCycle2 from "./compoonent life cycle/ComponentLifeCycle2";
+import Menu from "./resuable component/Menu";
+import Button from "./resuable component/Button";
 
 function App(){
     return (
@@ -20,7 +25,13 @@ function App(){
             {/* <StateManagement/> */}
             {/* <ObjectAsState/> */}
             {/* <FormBinding/> */}
-            <FormBindingForGroup/>
+            {/* <FormBindingForGroup/> */}
+            {/* <List/> */}
+            {/* <ComponentLifeCycle1/> */}
+            {/* <ComponentLifeCycle2/> */}
+            <Menu/>
+            <Button/>
+            
        </>
     )
 }
