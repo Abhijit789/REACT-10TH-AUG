@@ -1,9 +1,9 @@
 
-function Button({className,buttonText,...props}) {
+function Button({className,buttonText,handleClick,...props}) {
     console.log(props);
     
   return (
-    <button className={className} {...props}>{buttonText}</button>
+    <button className={className} onClick={handleClick} {...props}>{buttonText}</button>
   )
 }
 

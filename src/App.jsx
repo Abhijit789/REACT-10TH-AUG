@@ -13,6 +13,10 @@ import ComponentLifeCycle1 from "./compoonent life cycle/ComponentLifeCycle1";
 import ComponentLifeCycle2 from "./compoonent life cycle/ComponentLifeCycle2";
 import Menu from "./resuable component/Menu";
 import Button from "./resuable component/Button";
+import DataFetchingAxios from "./axios/DataFetchingAxios";
+import ThemeProvider from "./context api/ThemeProvider";
+import Dashbord from "./context api/Dashbord";
+import Navbar from "./context api/Navbar";
 
 function App(){
     return (
@@ -29,8 +33,13 @@ function App(){
             {/* <List/> */}
             {/* <ComponentLifeCycle1/> */}
             {/* <ComponentLifeCycle2/> */}
-            <Menu/>
-            <Button/>
+            {/* <Menu/>
+            <Button/> */}
+            {/* <DataFetchingAxios/> */}
+            <ThemeProvider>
+                <Navbar/>
+                <Dashbord/>
+            </ThemeProvider>
             
        </>
     )
