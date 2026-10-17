@@ -17,6 +17,11 @@ import DataFetchingAxios from "./axios/DataFetchingAxios";
 import ThemeProvider from "./context api/ThemeProvider";
 import Dashbord from "./context api/Dashbord";
 import Navbar from "./context api/Navbar";
+// import UseMemoPerformance from "./performance optimization hooks/UseMemoPerformance";
+import UsecallBackParent from "./performance oprtimization hooks/UsecallBackParent.jsx";
+import CounterState from "./usereducer statemanagement/CounterState";
+import CounterStateWithPayLoad from "./usereducer statemanagement/CounterStateWithPayLoad";
+import User from "./usereducer statemanagement/User.jsx";
 
 function App(){
     return (
@@ -36,10 +41,16 @@ function App(){
             {/* <Menu/>
             <Button/> */}
             {/* <DataFetchingAxios/> */}
-            <ThemeProvider>
+            {/* <ThemeProvider>
                 <Navbar/>
                 <Dashbord/>
-            </ThemeProvider>
+            </ThemeProvider> */}
+            {/* <UseMemoHook/> */}
+            {/* <UseMemoPerformance/> */}
+            {/* <UsecallBackParent/> */}
+            {/* <CounterState/> */}
+            {/* <CounterStateWithPayLoad/> */}
+            <User/>
             
        </>
     )
